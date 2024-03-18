@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1, 
+        "nombreDepa": "Diseño",
+        "img": "https://placehold.co/600x400",
+        "img2": "https://placehold.co/600x400",
+        "nombresImg": "Juan Perez, Carlos Ortiz",
+        "nombresImg2": "Juan Perez, Maria Rodriguez, Carlos Ortiz"
+    },
+    {
+        "id": 2,
+        "nombreDepa": "Nivel Parvulario",
+        "img": "https://placehold.co/600x400",
+        "img2": "https://placehold.co/600x400",
+        "nombresImg": "Amalia Sepúlveda, ,Jaqueline Pérez, Carolina García, Liz Delgado, Vania Fuentes, Gricelda Villalobos, Carolina Jeréz",
+        "nombresImg2": "Carla Gutiérrez, Camila Mendoza, Jennifer Vega, Soledad Montoya, Jasmín Léon, Pilar del Carmen Rodríguez, Elizabeth Quiroga"
+    },
+    {
+        "id": 3,
+        "nombreDepa": "Nivel Basico",
+        "img": "https://placehold.co/600x400",
+        "img2": "https://placehold.co/600x400",
+        "nombresImg": "Cecilia Beltrán, Mónica Fernández, Jhoana Muñoz, Carolina Vidal, Katherinne Castillo, Valentina Corvalán, Valentina Araya",
+        "nombresImg2": "Karina Lovera, Michelle Gutiérrez, Paulina Contreras, Catalina Cubillos, Marcela Gutiérrez, Kendys Betancourt, Jorgue Garrido, Catherine Montecino, Karina Sánchez, Fernanda Ferrada, Ricardo Curinao"
+    },
+    {
+        "id": 4,
+        "nombreDepa": "Lenguaje",
+        "img": "https://placehold.co/600x400",
+        "img2": "https://placehold.co/600x400",
+        "nombresImg": "Mercedes Cantergianni, Reinaldo Pay, Ángela Suárez, Viviana Cabrera, Jaime Pinto, Carolina Novoa",
+        "nombresImg2": "Constanza Ramírez, Tomás Trenquin"
+    },
+    {
+        "id": 5,
+        "nombreDepa": "Matematicas",
+        "img": "https://placehold.co/600x400",
+        "img2": "https://placehold.co/600x400",
+        "nombresImg": "Pablo Mora, Julia Pastenes, Karen Ulloa, Viviana Escobar, Viviana Moraga",
+        "nombresImg2": "Vladimir Bustos, Gabriela Ríos, María José Ortíz"
+    },
+    {
+        "id": 6,
+        "nombreDepa": "Historía y Filosofia",
+        "img": "https://placehold.co/600x400",
+        "img2": "https://placehold.co/600x400",
+        "nombresImg": "David Caro, Angélica Gúzman, Ariel Muñóz, Daniela Grandón, Dominique Opazo.",
+        "nombresImg2": "Mónica Carrillo, Sergio Sepúlveda."
+    },
+    {
+        "id": 7,
+        "nombreDepa": "Ciencias Tecnologia",
+        "img": "https://placehold.co/600x400",
+        "img2": "https://placehold.co/600x400",
+        "nombresImg": "Eduardo Chávez, Marcelo Reyez, Gloria Aguilera, Victoria Sepúlveda, Brenda Fonseca, Gabriela Morales, Alejandra de Luca, Jennifer Szeinkierman.",
+        "nombresImg2": "Mauricio Villouta, Jubissa Salgado, Marcela Stuardo, Gabriela Ríos."
+    },
+    {
+        "id": 8,
+        "nombreDepa": "Ingles",
+        "img": "https://placehold.co/600x400",
+        "img2": "https://placehold.co/600x400",
+        "nombresImg": "Viviana Alarcón, Celeste Zárate, Karen Vásquez",
+        "nombresImg2": "Camila Abarzúa, María Mattus"
+    },
+    {
+        "id": 9,
+        "nombreDepa": "Educacion Fisica",
+        "img": "https://placehold.co/600x400",
+        "img2": "https://placehold.co/600x400",
+        "nombresImg": "Andrés González, Héctor Sáez, Marcos Sagredo, Carmen Vergara",
+        "nombresImg2": "Débora Inzunza, Javier Léon, Diego Placencia"
+    },
+    {
+        "id": 10,
+        "nombreDepa": "Artes",
+        "img": "https://placehold.co/600x400",
+        "img2": "https://placehold.co/600x400",
+        "nombresImg": "Isis Olmo, Marcela Navarrete, Ramón Coloma, Jose Luis Arévalo.",
+        "nombresImg2": "Alex Mardones"
+    }
+]

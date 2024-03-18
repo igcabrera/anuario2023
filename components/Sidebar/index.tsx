@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import SidebarLinkGroup from "./SidebarLinkGroup";
-import Image from "next/image";
 
 interface SidebarProps {
   sidebarOpen: boolean;
@@ -500,7 +499,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                         </li>
                         <li>
                           <Link
-                            href="orientacion-brisa-del-sol"
+                            href="/orientacion-brisa-del-sol"
                             className={`group relative flex items-center gap-1.5 rounded-md px-4 font-medium text-white duration-300 ease-in-out hover:text-verde ${
                               pathname === "/orientacion-brisa-del-sol" &&
                               "text-white"
@@ -529,24 +528,15 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                             Programa Integración Escolar Brisa
                           </Link>
                         </li>
+
                         <li>
                           <Link
-                            href="/asistente-educacion-psicologia"
+                            href="/dupla-psicosocial"
                             className={`group relative flex items-center gap-1.5 rounded-md px-4 font-medium text-white duration-300 ease-in-out hover:text-verde ${
                               pathname === "/" && "text-white"
                             } `}
                           >
-                            Asistente educación Psicologia
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="/asistente-educacion-psicologia-sede-brisa"
-                            className={`group relative flex items-center gap-1.5 rounded-md px-4 font-medium text-white duration-300 ease-in-out hover:text-verde ${
-                              pathname === "/" && "text-white"
-                            } `}
-                          >
-                            Asistente educación Psicologia Sede Brisa
+                            Dupla Psicosocial{" "}
                           </Link>
                         </li>
                         <li>
@@ -557,16 +547,6 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                             } `}
                           >
                             Apoyo labor docente
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="/apoyo-labor-docente-brisa"
-                            className={`group relative flex items-center gap-1.5 rounded-md px-4 font-medium text-white duration-300 ease-in-out hover:text-verde ${
-                              pathname === "/" && "text-white"
-                            } `}
-                          >
-                            Apoyo labor docente Brisa
                           </Link>
                         </li>
                       </ul>
@@ -626,7 +606,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                       <ul className="mt-1 mb-2 flex flex-col gap-1.5 pl-6">
                         <li>
                           <Link
-                            href="/convivencia-escolar"
+                            href="/coordinador-nivel-parvulario"
                             className={`group relative flex items-center gap-1.5 rounded-md px-4 font-medium text-white duration-300 ease-in-out hover:text-verde ${
                               pathname === "/" && "text-white"
                             } `}
@@ -636,7 +616,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                         </li>
                         <li>
                           <Link
-                            href="/convivencia-escolar-brisa"
+                            href="/coordinador-nivel-parvulario-brisa-del-sol"
                             className={`group relative flex items-center gap-1.5 rounded-md px-4 font-medium text-white duration-300 ease-in-out hover:text-verde ${
                               pathname === "/" && "text-white"
                             } `}
@@ -646,22 +626,12 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                         </li>
                         <li>
                           <Link
-                            href="/orientacion"
+                            href="/coordinador-basica-media"
                             className={`group relative flex items-center gap-1.5 rounded-md px-4 font-medium text-white duration-300 ease-in-out hover:text-verde ${
                               pathname === "/" && "text-white"
                             } `}
                           >
-                            Básica y Media Casa Central
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="/orientacion-brisa"
-                            className={`group relative flex items-center gap-1.5 rounded-md px-4 font-medium text-white duration-300 ease-in-out hover:text-verde ${
-                              pathname === "/" && "text-white"
-                            } `}
-                          >
-                            Básica y Media Sede Brisa
+                            Básica y Media
                           </Link>
                         </li>
                       </ul>
@@ -721,22 +691,12 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                       <ul className="mt-1 mb-2 flex flex-col gap-1.5 pl-6">
                         <li>
                           <Link
-                            href="/convivencia-escolar"
+                            href="/centro-padres"
                             className={`group relative flex items-center gap-1.5 rounded-md px-4 font-medium text-white duration-300 ease-in-out hover:text-verde ${
                               pathname === "/" && "text-white"
                             } `}
                           >
-                            Centro Padres Casa Central
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="/convivencia-escolar-brisa"
-                            className={`group relative flex items-center gap-1.5 rounded-md px-4 font-medium text-white duration-300 ease-in-out hover:text-verde ${
-                              pathname === "/" && "text-white"
-                            } `}
-                          >
-                            Centro Padres Brisa
+                            Centro Padres
                           </Link>
                         </li>
                         <li>

@@ -17,7 +17,7 @@ export default function page() {
 
             <img
               className="rounded-xl shadow-md"
-              src="/imgs/administrativos/mariosan.jpg"
+              src="/imgs/administrativos/Mariosan.jpg"
               alt="hola"
             />
           </div>

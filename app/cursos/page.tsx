@@ -2,7 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 
 import React, { useState, useEffect, useRef } from "react";
-import data from "@/lib/data/cursos.json";
+import data from "@/lib/data/Cursos.json";
 
 export default function Page() {
   const [modalOpen, setModalOpen] = useState(false);

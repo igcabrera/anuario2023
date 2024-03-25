@@ -22,16 +22,6 @@ export default function page() {
               src="/imgs/dupla/cc.webp"
               alt="hola"
             />
-            <h1 className="font-bold py-2 text-xl mt-4">
-              Jorge Pradenas y Licci Vigueras
-            </h1>
-            <h3 className="font-bold pb-4">Sede Brisa del Sol</h3>
-
-            <img
-              className="rounded-xl shadow-md"
-              src="/imgs/dupla/bs.webp"
-              alt="hola"
-            />
           </div>
           <div className="col-span-2 mt-4 p-6 bg-white shadow-md rounded-md">
             <p className="p-2">

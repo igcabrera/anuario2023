@@ -45,7 +45,7 @@ const CursoDetailA = () => {
   // Función para cambiar de página
   const paginate = (pageNumber: any) => setCurrentPage(pageNumber);
   const curso = {
-    imgCurso: "/fotos-cursos/portadas/4b.jpg",
+    imgCurso: "/fotos-cursos/portadas/4b.webp",
   };
 
   return (
@@ -116,7 +116,9 @@ const CursoDetailA = () => {
               />
               <h3 className="text-md font-semibold mb-2">{alumno.nombre}</h3>
               <p className="text-gray-700 mb-4">
-                {alumno.desc.slice(0, 80)}...
+                {alumno.desc
+                  ? alumno.desc.slice(0, 80) + "..."
+                  : "No description available"}
               </p>
               <Link href={`/alumnos/4b/${alumno.id}`}>
                 <button className="bg-azul text-white font-semibold px-4 py-2 rounded hover:bg-blue-600 transition duration-300 ease-in-out">

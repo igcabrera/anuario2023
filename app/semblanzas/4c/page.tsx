@@ -45,7 +45,7 @@ const CursoDetailA = () => {
   // Función para cambiar de página
   const paginate = (pageNumber: any) => setCurrentPage(pageNumber);
   const curso = {
-    imgCurso: "/fotos-cursos/portadas/4c.jpg",
+    imgCurso: "/fotos-cursos/portadas/4c.webp",
   };
 
   return (

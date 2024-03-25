@@ -1,36 +1,38 @@
+PROFESOR JEFE: Chavez Godoy Eduardo Antonio
+ASISTENTE DE MEDIA: Alejandra Oñate
 
-ALARCÓN BRAVO, MARTINA IGNACIA	
-ALDANES MARDONES, GABRIELA EMILIA IGNACIA	
-ALMENDRAS CASTILLO, ISIDORA BELÉN	
-BRAVO SAEZ, CRISTIÁN ANDRÉS	
-CARRILLO TORO, HÉCTOR EDUARDO	
-CRUZ TOLEDO, FLORENCIA VALENTINA	
-FARÍAS MIRANDA, MARTÍN IGNACIO	
-FERRADA SOTO, IAN ALEXANDER	
-FRITZ RONDANELLI, MARTINA ISIDORA	
-GARCÉS GAJARDO, EMILIA ALE	
-GUTIÉRREZ RETAMAL, AGUSTÍN JESÚS	
-HENRÍQUEZ PLACENCIA, DIEGO ALONSO	
-HERMOSILLA MIÑO, FLORENCIA ALEJANDRA	
-LABRA ITURRA, FRANCISCA ALEJANDRA	
-MORALES BARRA, ANTONIA ALEXIA	
-NAVARRO CASTILLO, CARLOS BENJAMÍN	
-NAVARRO SEGURA, CHRISTOPHER PATRICIO	
-NOVOA ARCE, ALDAIR NICOLÁS	
-OBREQUE HIDALGO, BLANCA ANTONIA	
-PARRA TORRES, FRANCISCO ALBERTO	
-PÉREZ JELVES, ALONDRA YAEL	
-PINTO SEPÚLVEDA, DIEGO ALONSO ISMAEL	
-PINTO VERGARA, ANTONIA IGNACIA	
-QUIROGA ALTAMIRANO, ELEONOR MONTSERRAT	
-REGLA ULLOA, FRANCO ANDRÉS	
-REYES SALAMANCA, NICOLÁS IGNACIO	
-RODRÍGUEZ CALDERÓN, MATÍAS RENATO VÍCTOR	
-SANDOVAL ÁVILA, MÁXIMO MANUEL EMILIO	
-SOTO DÍAZ, PABLO ISAIAS	
-SOTO RAMÍREZ, LUCAS ANDRÉS JESÚS	
-VALDERRAMA MEDINA, MATÍAS NICOLÁS	
-VIDAL ESCOBAR, BELÉN IGNACIA	
-VIDAL ESCOBAR, CAROLAYN ANTONIA	
-YÁÑEZ IRRIBARRA, ISIDORA ALISON SAMYRA	
-SEPÚLVEDA MORA, AGUSTÍN VICENTE	
+Acosta Chavez Michael Ignacio 
+ Arriagada Gatica Anibal Miguel 
+ Arriagada Sanchez Felipe Javier 
+ Avila Gatica Paolo Alonso 
+ Ballesteros Hellman Mia 
+ Bastidas Rivas Martina Sarai 
+ Becerra Sepulveda Javiera Antonella Belen 
+ Chacano Osses Alvaro Joaquin 
+ Collante Rivera Renato Baruk 
+ Contreras Tello Benjamin Gamaliel 
+ Duran Herrera Cathalina Analie 
+ Elgueta Carcamo Javiera Belen 
+ Fuentes Grandon Nayib Ignacio 
+ Gallardo Mena Alexis Esteban 
+ Gallardo Miranda Daira Esperansa 
+ Garrido Flores Gonzalo Nicolas 
+ Gonzalez Ruminot Nicole Angelina 
+ Inzunza Morales Taira Bernardita 
+ Manriquez Bahamondes Benjamin Ignacio 
+ Martinez Sanhueza Jorge Enrique 
+ Martinez Silva Benjamin Antonio 
+ Neira Donoso Amelie 
+ Pacheco Campos Barbara Paskal 
+ Paredes Gonzalez Sebastian Agustin 
+ Parra Melo Denise Macarena 
+ Peña Alvarez Sofia Isidora 
+ Ramirez Lopez Joaquin Esteban 
+ Rodriguez Calderon Matias Renato Victor 
+ Salazar Scheinfelt Cristobal Ignacio 
+ Salinas Espinoza Carla Fernanda 
+ Smith Pardo Joaquin Andres 
+ Tasso Ravanal Gabriel Leonardo Paolo 
+ Valerio Burgos Benjamin Alberto 
+ Vallejos Diaz Martin Jonathan 
+ Zuñiga Baeza Genesis Antonia

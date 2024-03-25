@@ -1,33 +1,37 @@
-Apellidos y nombres
-AEDO PÉREZ, JOSEFA CONSTANZA ANETTE
-ALARCÓN MORA, JOSÉ THOMAS
-ARAVENA FICA, SERGIO ALEJANDRO ANÍBAL VICENTE
-BELMAR MUÑOZ, AGUSTINA ISIDORA
-BÓRQUEZ REYES, CRISTIAN JAVIER
-BRAVO CARRERA, MATÍAS JOAQUÍN
-CÁCERES PELLERANO, ANTONELLA PAZ
-CARRIÓN APABLAZA, AYLEN ISABELLA
-CARVALLO VEGA, CESARE SEBASTIANO
-ERRÁZURIZ CASTILLO, ISABEL LORETO
-FIGUEROA MESA, LEVI IGNACIO
-FIGUEROA SANTANDER, JULIÁN ALEJANDRO
-FUENTES AGURTO, AMANDA DANAE
-FUENTES LÓPEZ, AGUSTÍN ALONSO
-GARCÍA MARTÍNEZ, ANDRÉS MAURICIO
-GÓMEZ CIFUENTES, LEANDRO IVÁN
-INALAF PINTO, JULIÁN EDUARDO
-NEIRA ROMERO, CATALINA ANDREA
-NELSON CUEVAS, JOSEFA BELÉN
-NORAMBUENA OJEDA, ALEX EMMANUEL
-OYARZO ARIAS, FLORENCIA VICTORIA
-PIZARRO ELOIZA, FRANCISCA ANTONELLA
-REYES ÁLVAREZ, MATEO GASPAR
-ROCHA REYES, MICHELLE ANAÍS
-SALAS CAAMAÑO, GUILLERMO ANDRÉS
-SAN MARTÍN MUÑOZ, PÍA MILAGRO
-SANHUEZA BARAHONA, MARTIN ALONSO
-SANHUEZA GROLLMUS, ANTONIA ISABELLA
-SEGUEL VÁSQUEZ, DEMIAN ANTONIO
-VALDEBENITO SEPÚLVEDA, ANTONIA JACQUELINE
-VEGA CISTERNAS, ANTONELLA ALEJANDRA
-VELÁSQUEZ SILVA, YANIRA ANASTASIA
+PROFESOR JEFE: Sagredo Rivera Marcos
+ASISTENTE DE BÁSICA:Paula Cid
+
+Agurto Aillon Roque Santiago 
+ Alarcon Castro Maite Ariana 
+ Albornoz Delgado Amparo Emilia 
+ Alfaro Harambour Emilia Paz 
+ Allende Riquelme Vicente Daniel 
+ Araneda Navarrete Josefa Abigail 
+ Arriagada Silva Florencia Trinidad 
+ Aviles Medina Felipe Antonio 
+ Casanova Gaete Luciana Paz 
+ Guajardo Molina Joaquin Andres 
+ Ibacache Ortiz Ayelen Aranza 
+ Ledezma Bahamondes Felipe Tomas 
+ Lermanda Bernales Cristobal Joaquin 
+ Martinez Saez Antonella Ignacia 
+ Matus Arroyo Agustin Antonio 
+ Medel Roa Amanda Rafaela 
+ Montecinos Carvajal Stefano Mateo 
+ Moya Perez Isaias Alexis 
+ Navarrete Rocha Agustin Alonso 
+ Orellana Neira Emily Mariel 
+ Paz Parra Catalina Fernanda 
+ Pozo Fuentes Rafael Agustin 
+ Quiñimil Sepulveda Agustin Regner 
+ Riquelme Alarcon Camila Fernanda 
+ Rodriguez Aldana Thiare Belen 
+ Rojas Guzman Antonella Valentina 
+ Rosas Yañez Javiera Antonia 
+ San Martin Aguayo Nicolas Alonso 
+ Santibañez Quiroga Valentina Monserrat 
+ Segura Puga Violeta Anahi 
+ Sepulveda Medina Luis Vicente 
+ Silva Paredes Roberto Antonio Ezequiel 
+ Soto Sanchez Julian Eduardo 
+ Vega Perlaza Maximiliano Roberto

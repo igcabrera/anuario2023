@@ -884,82 +884,27 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
               </SidebarLinkGroup>
               {/* <!-- Menu Item Departamentos --> */}
 
-              {/* <!-- Menu Item ExtraEscolar --> */}
-              <SidebarLinkGroup
-                activeCondition={
-                  pathname === "/" || pathname.includes("ExtraEscolar")
-                }
-              >
-                {(handleClick, open) => (
-                  <React.Fragment>
-                    <Link
-                      href="#"
-                      className={`group relative flex items-center gap-1.5 rounded-sm py-1 px-4 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 ${
-                        (pathname === "/" ||
-                          pathname.includes("ExtraEscolar")) &&
-                        "bg-graydark dark:bg-meta-4"
-                      }`}
-                      onClick={(e) => {
-                        e.preventDefault();
-                        sidebarExpanded
-                          ? handleClick()
-                          : setSidebarExpanded(true);
-                      }}
-                    >
-                      ExtraEscolar
-                      <svg
-                        className={`absolute right-4 top-1/2 -translate-y-1/2 fill-current ${
-                          open && "rotate-180"
-                        }`}
-                        width="20"
-                        height="20"
-                        viewBox="0 0 20 20"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          clipRule="evenodd"
-                          d="M4.41107 6.9107C4.73651 6.58527 5.26414 6.58527 5.58958 6.9107L10.0003 11.3214L14.4111 6.91071C14.7365 6.58527 15.2641 6.58527 15.5896 6.91071C15.915 7.23614 15.915 7.76378 15.5896 8.08922L10.5896 13.0892C10.2641 13.4147 9.73651 13.4147 9.41107 13.0892L4.41107 8.08922C4.08563 7.76378 4.08563 7.23614 4.41107 6.9107Z"
-                          fill=""
-                        />
-                      </svg>
-                    </Link>
-                    {/* <!-- Dropdown Menu Start --> */}
-                    <div
-                      className={`translate transform overflow-hidden ${
-                        !open && "hidden"
-                      }`}
-                    >
-                      <ul className="mt-1 mb-2 flex flex-col gap-1.5 pl-6">
-                        <li>
-                          <Link
-                            href="/convivencia-escolar"
-                            className={`group relative flex items-center gap-1.5 rounded-md px-4 font-medium text-white duration-300 ease-in-out hover:text-verde ${
-                              pathname === "/" && "text-white"
-                            } `}
-                          >
-                            ExtraEscolar
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="/convivencia-escolar-brisa"
-                            className={`group relative flex items-center gap-1.5 rounded-md px-4 font-medium text-white duration-300 ease-in-out hover:text-verde ${
-                              pathname === "/" && "text-white"
-                            } `}
-                          >
-                            ExtraEscolar Sede Brisa
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                    {/* <!-- Dropdown Menu End --> */}
-                  </React.Fragment>
-                )}
-              </SidebarLinkGroup>
-              {/* <!-- Menu Item ExtraEscolar --> */}
               {/* <!-- Menu Item Actividades Descatadas --> */}
+              <li>
+                <Link
+                  href="/extra-escolar"
+                  className={`group relative flex items-center gap-1.5 rounded-sm py-1 px-4 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 ${
+                    pathname.includes("calendar") &&
+                    "bg-graydark dark:bg-meta-4"
+                  }`}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    fill="white"
+                  >
+                    <path d="M7.33 24l-2.83-2.829 9.339-9.175-9.339-9.167 2.83-2.829 12.17 11.996z" />
+                  </svg>
+                  Extra Escolar
+                </Link>
+              </li>
               <li>
                 <Link
                   href="/directivos"
@@ -1048,49 +993,80 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
               </li>
               {/* <!-- Menu Item  juegos inflables --> */}
               {/* <!-- Menu Item Licenciatura--> */}
-              <li>
-                <Link
-                  href="/Cursos"
-                  className={`group relative flex items-center gap-1.5 rounded-sm py-1 px-4 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 ${
-                    pathname.includes("calendar") &&
-                    "bg-graydark dark:bg-meta-4"
-                  }`}
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="12"
-                    height="12"
-                    viewBox="0 0 24 24"
-                    fill="white"
-                  >
-                    <path d="M7.33 24l-2.83-2.829 9.339-9.175-9.339-9.167 2.83-2.829 12.17 11.996z" />
-                  </svg>
-                  Licenciatura
-                </Link>
-              </li>
+              <SidebarLinkGroup
+                activeCondition={
+                  pathname === "/" || pathname.includes("coordinadores")
+                }
+              >
+                {(handleClick, open) => (
+                  <React.Fragment>
+                    <Link
+                      href="#"
+                      className={`group relative flex items-center gap-1.5 rounded-sm py-1 px-4 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 ${
+                        (pathname === "/" || pathname.includes("dashboard")) &&
+                        "bg-graydark dark:bg-meta-4"
+                      }`}
+                      onClick={(e) => {
+                        e.preventDefault();
+                        sidebarExpanded
+                          ? handleClick()
+                          : setSidebarExpanded(true);
+                      }}
+                    >
+                      Licenciatura
+                      <svg
+                        className={`absolute right-4 top-1/2 -translate-y-1/2 fill-current ${
+                          open && "rotate-180"
+                        }`}
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          clipRule="evenodd"
+                          d="M4.41107 6.9107C4.73651 6.58527 5.26414 6.58527 5.58958 6.9107L10.0003 11.3214L14.4111 6.91071C14.7365 6.58527 15.2641 6.58527 15.5896 6.91071C15.915 7.23614 15.915 7.76378 15.5896 8.08922L10.5896 13.0892C10.2641 13.4147 9.73651 13.4147 9.41107 13.0892L4.41107 8.08922C4.08563 7.76378 4.08563 7.23614 4.41107 6.9107Z"
+                          fill=""
+                        />
+                      </svg>
+                    </Link>
+                    {/* <!-- Dropdown Menu Start --> */}
+                    <div
+                      className={`translate transform overflow-hidden ${
+                        !open && "hidden"
+                      }`}
+                    >
+                      <ul className="mt-1 mb-2 flex flex-col gap-1.5 pl-6">
+                        <li>
+                          <Link
+                            href="/licenciatura/cc"
+                            className={`group relative flex items-center gap-1.5 rounded-md px-4 font-medium text-white duration-300 ease-in-out hover:text-verde ${
+                              pathname === "/" && "text-white"
+                            } `}
+                          >
+                            Casa Central
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/licenciatura/bs"
+                            className={`group relative flex items-center gap-1.5 rounded-md px-4 font-medium text-white duration-300 ease-in-out hover:text-verde ${
+                              pathname === "/" && "text-white"
+                            } `}
+                          >
+                            Sede Brisa del Sol
+                          </Link>
+                        </li>
+                      </ul>
+                    </div>
+                    {/* <!-- Dropdown Menu End --> */}
+                  </React.Fragment>
+                )}
+              </SidebarLinkGroup>
               {/* <!-- Menu Item Licenciatura --> */}
-              {/* <!-- Menu Item Reconocimientos--> */}
-              <li>
-                <Link
-                  href="/Cursos"
-                  className={`group relative flex items-center gap-1.5 rounded-sm py-1 px-4 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 ${
-                    pathname.includes("calendar") &&
-                    "bg-graydark dark:bg-meta-4"
-                  }`}
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="12"
-                    height="12"
-                    viewBox="0 0 24 24"
-                    fill="white"
-                  >
-                    <path d="M7.33 24l-2.83-2.829 9.339-9.175-9.339-9.167 2.83-2.829 12.17 11.996z" />
-                  </svg>
-                  Reconocimientos
-                </Link>
-              </li>
-              {/* <!-- Menu Item Reconocimientos --> */}
+
               {/* <!-- Menu Item Semblanzas --> */}
               <SidebarLinkGroup
                 activeCondition={

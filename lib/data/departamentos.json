@@ -1,82 +1,74 @@
 [
     {
-        "id": 1, 
-        "nombreDepa": "Diseño",
-        "img": "https://placehold.co/600x400",
-        "img2": "https://placehold.co/600x400",
-        "nombresImg": "Juan Perez, Carlos Ortiz",
-        "nombresImg2": "Juan Perez, Maria Rodriguez, Carlos Ortiz"
-    },
-    {
         "id": 2,
         "nombreDepa": "Nivel Parvulario",
-        "img": "https://placehold.co/600x400",
-        "img2": "https://placehold.co/600x400",
-        "nombresImg": "Amalia Sepúlveda, ,Jaqueline Pérez, Carolina García, Liz Delgado, Vania Fuentes, Gricelda Villalobos, Carolina Jeréz",
-        "nombresImg2": "Carla Gutiérrez, Camila Mendoza, Jennifer Vega, Soledad Montoya, Jasmín Léon, Pilar del Carmen Rodríguez, Elizabeth Quiroga"
+        "img": "/imgs/depas/parvcc.webp",
+        "img2": "/imgs/depas/parvbrisa.webp",
+        "nombresImg": "Amalia Sepúlveda, Carolina Jerez , Carolina García ,Jaqueline Pérez, Gricelda Medina, Vania Fuentes",
+        "nombresImg2": "Jennifer Vega, Soledad Montoya, Camila Mendoza,: Cecilia Concha, Elizabeth Quiroga, Pilar Rodríguez, Jasmín León"
     },
     {
         "id": 3,
         "nombreDepa": "Nivel Basico",
-        "img": "https://placehold.co/600x400",
-        "img2": "https://placehold.co/600x400",
-        "nombresImg": "Cecilia Beltrán, Mónica Fernández, Jhoana Muñoz, Carolina Vidal, Katherinne Castillo, Valentina Corvalán, Valentina Araya",
-        "nombresImg2": "Karina Lovera, Michelle Gutiérrez, Paulina Contreras, Catalina Cubillos, Marcela Gutiérrez, Kendys Betancourt, Jorgue Garrido, Catherine Montecino, Karina Sánchez, Fernanda Ferrada, Ricardo Curinao"
+        "img": "/imgs/depas/basicc.webp",
+        "img2": "/imgs/depas/basibrisa.webp",
+        "nombresImg": "Valentina Araya, Valentina Corvalán, Mónica Fernandéz,Cecilia Beltrán, Katherinne Castillo, Carolina Vidal, Elizabeth Gallardo, Johana Muñoz.",
+        "nombresImg2": "Jorge Garrido, Kendys Betancourt, Marcela Gutiérrez, Ricardo Barra, Catherine Montecino, Fernanda Ferrada, Michelle Gutiérrez, Carmen Soto, Karina Sánchez, Catalina Cubillos, Marisol Bravo Sanhueza, Paulina Contreras."
     },
     {
         "id": 4,
         "nombreDepa": "Lenguaje",
-        "img": "https://placehold.co/600x400",
-        "img2": "https://placehold.co/600x400",
-        "nombresImg": "Mercedes Cantergianni, Reinaldo Pay, Ángela Suárez, Viviana Cabrera, Jaime Pinto, Carolina Novoa",
-        "nombresImg2": "Constanza Ramírez, Tomás Trenquin"
+        "img": "/imgs/depas/lencc.webp",
+        "img2": "/imgs/depas/lenbri.webp",
+        "nombresImg": "Carolina Novoa, Jaime Pinto, Mercedes Cantergianni, Viviana Cabrera, Reinaldo Pay, Ángela Súarez",
+        "nombresImg2": "Lilliana Barrera, Laina Molina, Constanza Ramírez."
     },
     {
         "id": 5,
         "nombreDepa": "Matematicas",
-        "img": "https://placehold.co/600x400",
-        "img2": "https://placehold.co/600x400",
-        "nombresImg": "Pablo Mora, Julia Pastenes, Karen Ulloa, Viviana Escobar, Viviana Moraga",
-        "nombresImg2": "Vladimir Bustos, Gabriela Ríos, María José Ortíz"
+        "img": "/imgs/depas/matecc.webp",
+        "img2": "/imgs/depas/matebrisa.webp",
+        "nombresImg": "Pablo Mora, Max Campos, Viviana Moraga, Karen Ulloa, Viviana Escobar.",
+        "nombresImg2": "Carolina Leal, Vladimir Bustos, María José Ortíz, Sofía Paiva."
     },
     {
         "id": 6,
         "nombreDepa": "Historía y Filosofia",
-        "img": "https://placehold.co/600x400",
-        "img2": "https://placehold.co/600x400",
-        "nombresImg": "David Caro, Angélica Gúzman, Ariel Muñóz, Daniela Grandón, Dominique Opazo.",
-        "nombresImg2": "Mónica Carrillo, Sergio Sepúlveda."
+        "img": "/imgs/depas/histocc.webp",
+        "img2": "/imgs/depas/histobrisa.webp",
+        "nombresImg": "Rodrigo Huenchuman, Ariel Muñóz, Angélica Guzmán, David Caro,Dominique Opazo, Pablo Ulloa, Daniela Grandón.",
+        "nombresImg2": "Sergio Sepúlveda, Mónica Carrillo, Pablo Rodríguez."
     },
     {
         "id": 7,
         "nombreDepa": "Ciencias Tecnologia",
-        "img": "https://placehold.co/600x400",
-        "img2": "https://placehold.co/600x400",
-        "nombresImg": "Eduardo Chávez, Marcelo Reyez, Gloria Aguilera, Victoria Sepúlveda, Brenda Fonseca, Gabriela Morales, Alejandra de Luca, Jennifer Szeinkierman.",
-        "nombresImg2": "Mauricio Villouta, Jubissa Salgado, Marcela Stuardo, Gabriela Ríos."
+        "img": "/imgs/depas/ciencc.webp",
+        "img2": "/imgs/depas/cienbrisa.webp",
+        "nombresImg": "Eduardo Chávez, Verónica Victoria Sepúlveda, Macarena Pinilla, Gloria Aguilera, Brenda Fonseca, Camila Sagredo, Gabriela Morales.",
+        "nombresImg2": "Jubissa Salgado, Margory Oñate, Marcela Stuardo, Gabriela Ríos."
     },
     {
         "id": 8,
         "nombreDepa": "Ingles",
-        "img": "https://placehold.co/600x400",
-        "img2": "https://placehold.co/600x400",
-        "nombresImg": "Viviana Alarcón, Celeste Zárate, Karen Vásquez",
-        "nombresImg2": "Camila Abarzúa, María Mattus"
+        "img": "/imgs/depas/ingcc.webp",
+        "img2": "/imgs/depas/ingbrisa.webp",
+        "nombresImg": "Roberto Lazo, Viviana Alarcón, Karen Vásquez, Celeste Zárate.",
+        "nombresImg2": "María Matus, Camila Abarzúa, Rigoberto Carrasco, Constanza Acuña."
     },
     {
         "id": 9,
         "nombreDepa": "Educacion Fisica",
-        "img": "https://placehold.co/600x400",
-        "img2": "https://placehold.co/600x400",
-        "nombresImg": "Andrés González, Héctor Sáez, Marcos Sagredo, Carmen Vergara",
-        "nombresImg2": "Débora Inzunza, Javier Léon, Diego Placencia"
+        "img": "/imgs/depas/educc.webp",
+        "img2": "/imgs/depas/edubrisa.webp",
+        "nombresImg": "Andrés González, Hector saez, Marcos Sagredo, Claudia Matus, Carmen Vergara.",
+        "nombresImg2": "Diego Placencia, Felipe Ríos, Débora Inzunza, Javier León."
     },
     {
         "id": 10,
         "nombreDepa": "Artes",
-        "img": "https://placehold.co/600x400",
-        "img2": "https://placehold.co/600x400",
-        "nombresImg": "Isis Olmo, Marcela Navarrete, Ramón Coloma, Jose Luis Arévalo.",
-        "nombresImg2": "Alex Mardones"
+        "img": "/imgs/depas/artecc.webp",
+        "img2": "/imgs/depas/artebrisa.webp",
+        "nombresImg": "José Arévalo, Ramón Muñóz.",
+        "nombresImg2": "Alan Rodríguez."
     }
 ]

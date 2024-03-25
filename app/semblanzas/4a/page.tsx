@@ -34,7 +34,7 @@ const CursoDetailA = () => {
 
   useEffect(() => {
     if (width < 768) {
-      setAlumnosPerPage(4); // Para pantallas pequeñas (menores a 768px)
+      setAlumnosPerPage(6); // Para pantallas pequeñas (menores a 768px)
     } else if (width >= 768 && width < 1024) {
       setAlumnosPerPage(6); // Para pantallas medianas (entre 768px y 1024px)
     } else {
@@ -66,16 +66,16 @@ const CursoDetailA = () => {
           className="flex justify-center items-center"
         >
           {/* Grid de cards de profes */}
-          <div className="grid grid-cols-2 max-w-4xl mb-6 justify-center   gap-6">
+          <div className="grid grid-cols-1 max-w-4xl mb-6 justify-center   gap-6">
             {profesData.map((profe) => (
               <div
                 key={profe.id}
-                className="bg-white rounded-lg shadow-md p-4"
+                className="bg-white rounded-lg shadow-md p-4 max-w-[450px]"
               >
                 <img
                   src={profe.img}
                   alt={profe.nombre}
-                  className="w-full h-40 object-cover rounded-md mb-4"
+                  className="w-full  h-40 object-cover rounded-md mb-4"
                 />
                 <h3 className="text-md font-semibold mb-2">{profe.nombre}</h3>
                 <p className="text-gray-700 mb-4">
@@ -137,7 +137,7 @@ const CursoDetailA = () => {
               onClick={() => paginate(index + 1)}
               className={`mx-1 px-4 py-2 border border-verde bg-verde rounded-md  ${
                 currentPage === index + 1
-                  ? "bg-azul text-white"
+                  ? "bg-[#0077b6] text-white"
                   : "hover:bg-azul text-white"
               }`}
             >

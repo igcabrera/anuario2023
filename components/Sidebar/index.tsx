@@ -539,16 +539,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                             Dupla Psicosocial{" "}
                           </Link>
                         </li>
-                        <li>
-                          <Link
-                            href="/dupla-psicosocial/bs"
-                            className={`group relative flex items-center gap-1.5 rounded-md px-4 font-medium text-white duration-300 ease-in-out hover:text-verde ${
-                              pathname === "/" && "text-white"
-                            } `}
-                          >
-                            Dupla Psicosocial Sede Brisa{" "}
-                          </Link>
-                        </li>
+
                         <li>
                           <Link
                             href="/apoyo-labor-docente"
